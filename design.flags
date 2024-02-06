@@ -1,0 +1,12 @@
+-database /work/jaf18/PLACE_MOTIFS/database/ 
+-ex1 
+-ex2 
+-matdes::num_subs_building_block 1 
+-mute core.conformation.symmetry.SymmData core.conformation.SymmetryInfo 
+-holes::dalphaball /work/jaf18/bin/DAlphaBall.gcc 
+-no_his_his_pairE 
+-per_chain_renumbering 
+-out:path:all output/ 
+-detect_disulf false
+-mh:path:motifs           /work/jaf18/dev/test_motifs/xscore/xs_bb_ss_AILMV_sf5_std/xs_bb_ss_AILMV_sf5_std.rpm.bin.gz 
+-overwrite
